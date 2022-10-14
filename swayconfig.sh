@@ -1,0 +1,1 @@
+nano ~/.config/sway/config
