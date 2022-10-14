@@ -1,0 +1,15 @@
+Necessary command: grep "\ install\ " /var/log/apt/history.log
+
+Commandline: apt install firefox-esr
+Commandline: apt install sway
+Commandline: apt install trash-cli
+Commandline: apt install openjdk-17-jre
+Commandline: apt install wofi
+Commandline: apt install neofetch
+Commandline: apt install pulseaudio-utils
+Commandline: apt install playerctl
+Commandline: apt install blueman
+Commandline: apt install pavucontrol
+Commandline: apt install jq
+Commandline: apt install ibus-anthy
+Commandline: apt install fonts-noto
