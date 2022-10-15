@@ -225,6 +225,8 @@ gaps inner 20
 
 exec ibus-daemon -rxd
 bindsym ctrl+space exec ~/.config/sway/inputmethod.sh
+for_window [title="Firefox — Sharing Indicator"] floating enable, move position 1880 px 1040 px;
+for_window [title="Picture-in-Picture"]  floating enable, resize set width 640 px height 360 px, move position 1240 px 658 px, sticky on
 
 bindsym $mod+t exec darkman toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
